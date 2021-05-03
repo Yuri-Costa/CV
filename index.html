@@ -20,38 +20,47 @@
            <p class="regular">Desenvolvedor Junior</p>
          </div>
          <ul>
-           <li>
-             <div class="icon">
-               <i class="fas fa-map-signs"></i>
-             </div>
-             <div class="data">
-               Imbaçal, 494 <br /> BRA
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-mobile-alt"></i>
-             </div>
-             <div class="data">
-               (11)97242-9047
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-envelope"></i>
-             </div>
-             <div class="data">
-               yuri342costa@gmail.com
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-github"></i>"></i>
-             </div>
-             <div class="data">
-              https://github.com/Yuri-Costa
-             </div>
-           </li>
+           <div id="area">
+
+             <li>
+               <div class="icon">
+                 <i class="fas fa-map-signs"></i>
+               </div>
+               <div class="datar">
+                 <a href="https://www.google.com/maps/place/Rua+Imba%C3%A7al,+494+-+Parada+XV+de+Novembro,+S%C3%A3o+Paulo+-+SP,+08246-025/@-23.5322141,-46.4396833,3a,75y,261.35h,84.27t/data=!3m7!1e1!3m5!1si6EPZSNs0etYIDe8QOQukA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Di6EPZSNs0etYIDe8QOQukA%26cb_client%3Dsearch.gws-prod.gps%26w%3D86%26h%3D86%26yaw%3D254.3156%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m5!3m4!1s0x94ce66a744cce283:0x30ee37eeb32040a3!8m2!3d-23.5322426!4d-46.4398686">Imbaçal, 494 <br /> BRA</a>
+                </div>
+              </li>
+            </div>
+            <div id="area2">
+
+              <li>
+                <div class="icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="datae">
+                  <a href="mailto:yuri342costa@gmail.com">yuri342costa@gmail.com</a>
+                </div>
+              </li>
+            </div>
+            <div id="area3">
+
+              <li>
+                <div class="icon">
+                  <i class="fab fa-github"></i>"></i>
+                </div>
+                <div class="datag">
+                  <a href="https://github.com/Yuri-Costa">https://github.com/Yuri-Costa</a>
+                </div>
+              </li>
+            </div>
+            <li>
+              <div class="icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="data">
+                (11)97242-9047
+              </div>
+            </li>
          </ul>
        </div>
        <div class="resume_item resume_skills">
@@ -213,20 +222,20 @@
         <ul>
           <li>
             <div class="icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="data">
+              <p class="semi-bold">Meu Linkedin</p>
+              <a href="https://www.linkedin.com/in/z-yuri-costa/">Clique Aqui!</a>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
               <i class="fab fa-twitter-square"></i>
             </div>
             <div class="data">
-              <p class="semi-bold">Instagram</p>
-              <p>@z__yuri</p>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-linkedin"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Linkedin</p>
-               <p>https://www.linkedin.com/in/z-yuri-costa/</p>
+              <p class="semi-bold">Meu Instagram</p>
+              <a href="https://www.instagram.com/z__yuri/">Clique Aqui!</a>
              </div>
            </li>
          </ul>
@@ -302,6 +311,30 @@
     </div>
   </div>
 </div>
+<script>
+
+  
+  
+  /*------------------------------------------------------------*/
+  var a = window.document.getElementById('area')
+  var b = window.document.getElementById('area2')
+  var c = window.document.getElementById('area3')
+   a.addEventListener('mouseenter', entrar)
+   a.addEventListener('mouseout', sair)
+
+    function entrar(){ 
+    a.style.fontSize = "18px"
+    b.style.fontSize = "18px"
+    c.style.fontSize = "18px"
+        }
+        function sair(){
+          a.style.fontSize = "14px"
+          b.style.fontSize = "14px"
+          c.style.fontSize = "14px"
+        }
+
+
+</script>
 
 </body>
 </html>
