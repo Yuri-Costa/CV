@@ -9,7 +9,7 @@
 }
 
 body {
-  background: #585c68;
+  background: #655868;
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -84,12 +84,44 @@ body {
     color: #b1eaff;
 }
 .datag a{
-    text-decoration: none;
-    color: #b1eaff;
+  text-decoration: none;
+  color: #b1eaff;
 }
 .datae a{
-    text-decoration: none;
-    color: #b1eaff;
+  text-decoration: none;
+  color: #b1eaff;
+}
+.datat a{
+  text-decoration: none;
+  color: #b1eaff;
+}
+.datai a{
+  text-decoration: none;
+  color: #b1eaff;
+}
+.datal a{
+  text-decoration: none;
+  color: #b1eaff;
+}
+
+/*----------------------------------*/
+.datar a:hover{
+    color: rgb(204, 0, 255);
+}
+.datag a:hover{
+  color: rgb(204, 0, 255);
+}
+.datae a:hover{
+  color: rgb(204, 0, 255);
+}
+.datat a:hover{
+  color: rgb(204, 0, 255);
+}
+.datai a:hover{
+  color: rgb(204, 0, 255);
+}
+.datal a:hover{
+  color: rgb(204, 0, 255);
 }
 
 
